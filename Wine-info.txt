@@ -62,4 +62,8 @@ id                      3918 non-null int64
 dtypes: float64(11), int64(2)
 memory usage: 398.0 KB
 
+Here , fixed.acidity is bit constant over quality
+sns.barplot(x = 'quality',y= 'fixed.acidity',data = wine)
+plt.show()
+
 
