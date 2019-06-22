@@ -1,0 +1,21 @@
+First of all, we need to install a bunch of packages that would come handy in the construction and execution of our code.
+
+- pip install numpy
+- pip install pandas
+- pip install seaborn
+- pip install sklearn
+
+numpy will be used for making the mathematical calculations more accurate
+pandas will be used to work with file formats like csv, xls etc. 
+sklearn (scikit-learn) will be used to import our classifier for prediction.
+Seaborn provides a high-level interface for drawing attractive and informative statistical graphics.
+
+Now we are going to import our installed packages
+- import numpy as np
+- import pandas as pd
+- import seaborn as sns
+
+
+For this project, we will be using the Wine Dataset from Paulo Cortez (Univ. Minho), Antonio Cerdeira, Fernando Almeida, Telmo Matos and Jose Reis (CVRVV) @ 2009
+
+wine = pd.read_csv("winedata.csv")
